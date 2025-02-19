@@ -1,1 +1,1 @@
-# The world first greatest shopping experience.
+# My Project Helping Future Shoppers
