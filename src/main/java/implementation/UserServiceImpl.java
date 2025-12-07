@@ -1,8 +1,9 @@
-package org.indiloveforlife.serviceImpl;
+package implementation;
 
-import org.indiloveforlife.entity.User;
-import org.indiloveforlife.service.UserService;
+
+import entity.User;
 import org.springframework.stereotype.Service;
+import service.UserService;
 
 @Service
 class UserServiceImpl implements UserService {

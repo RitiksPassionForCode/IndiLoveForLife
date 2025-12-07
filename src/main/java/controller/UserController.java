@@ -1,11 +1,12 @@
-package org.indiloveforlife.controller;
+package controller;
 
-import org.indiloveforlife.entity.User;
-import org.indiloveforlife.service.UserService;
+import entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import service.UserService;
+
 
 @RestController
 public class UserController {
@@ -14,7 +15,7 @@ public class UserController {
     UserService userService;
 
     @PostMapping
-    public void registerUser(@RequestBody User user){
+    public void registerUser(@RequestBody User user) {
         userService.registerUser(user);
     }
 

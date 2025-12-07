@@ -1,4 +1,4 @@
-package org.indiloveforlife.entity;
+package entity;
 
 import javax.persistence.Entity;
 import java.time.LocalDateTime;

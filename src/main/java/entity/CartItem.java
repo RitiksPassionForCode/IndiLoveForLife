@@ -1,4 +1,4 @@
-package org.indiloveforlife.entity;
+package entity;
 
 class CartItem {
     Long id;
